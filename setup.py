@@ -28,7 +28,7 @@ def readme():
 
 setup(
 	name='pdf',
-	version='2020.9.18.2',
+	version='2026.6.29',
 	license='MIT',
 	author='Idin',
 	author_email='py@idin.ca',
@@ -46,7 +46,7 @@ setup(
 		'Topic :: Software Development :: Libraries :: Python Modules'
 	],
 	packages=find_packages(exclude=("jupyter_tests", ".idea", ".git")),
-	install_requires=['pdftotree', 'bs4', 'silverware', 'nltk', 'disk', 'pandas', 'chronometry'],
+	install_requires=['pdftotree', 'beautifulsoup4', 'silverware', 'nltk', 'disk', 'pandas', 'chronometry'],
 	python_requires='~=3.6',
 	zip_safe=True,
 )
